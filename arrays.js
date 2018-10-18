@@ -31,7 +31,3 @@ function removeElementFromBeginningOfArray(array) {
   array.shift()
   return array
 }
-
-function removeElementFromBeginningOfArray(array) {
-  return [, ...array]
-}
